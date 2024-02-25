@@ -26,6 +26,6 @@ for (let i = 0; i < nickname.length; i++) {
         nivel = "Radiante"
     }
 
-    //saída
+//saída
     console.log("O herói de nome " + nickname[i] + " está no nível de " + nivel);
 }
