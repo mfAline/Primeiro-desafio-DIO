@@ -1,10 +1,13 @@
 
+//variáveis
 let nickname = ["Estrela", "Lua", "Sol", "Planeta", "Raio"];
 let xp = [12000, 5640, 9300, 570, 7480];
 let nivel;
 
+//operadores e laço de repetição
 for (let i = 0; i < nickname.length; i++) {
 
+//estrutura de decisão
     if (xp[i] <= 1000) {
         nivel = "Ferro";
     } else if (xp[i] >= 1001 && xp[i] <= 2000) {
@@ -23,5 +26,6 @@ for (let i = 0; i < nickname.length; i++) {
         nivel = "Radiante"
     }
 
+    //saída
     console.log("O herói de nome " + nickname[i] + " está no nível de " + nivel);
 }
