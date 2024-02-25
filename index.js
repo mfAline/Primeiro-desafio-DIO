@@ -1,4 +1,4 @@
-
+//#1 Desafio Classificador de nível de Herói
 //variáveis
 let nickname = ["Estrela", "Lua", "Sol", "Planeta", "Raio"];
 let xp = [12000, 5640, 9300, 570, 7480];
